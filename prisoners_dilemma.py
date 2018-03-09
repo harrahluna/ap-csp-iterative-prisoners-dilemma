@@ -73,7 +73,7 @@ def main_play(modules):
 def play_tournament(modules):
     '''Each argument is a module name
     Each module must contain 
-        team_name: 'harjuls'
+        team_name: a string
         strategy_name: a string
         strategy_description: a string
         move: A function that returns 'c' or 'b'
